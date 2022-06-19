@@ -11,10 +11,12 @@ public class Main {
 
         Doctor doctor = context.getBean(Doctor.class);
         doctor.assist();
-        Nurse nurse = context.getBean(Nurse.class);
-        nurse.assist();
-        Staff staff = context.getBean(Doctor.class);
-        staff.assist();
+        doctor.setQualification("MBBS");
+        System.out.println(doctor);
+
+        Doctor doctor1 = context.getBean(Doctor.class);
+        System.out.println(doctor1);
+
 
     }
 }
