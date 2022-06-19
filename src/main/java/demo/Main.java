@@ -17,6 +17,9 @@ public class Main {
         Doctor doctor1 = context.getBean(Doctor.class);
         System.out.println(doctor1);
 
+        Doctor doctor2 = context.getBean(Doctor.class);
+        System.out.println(doctor2);
+
 
     }
 }

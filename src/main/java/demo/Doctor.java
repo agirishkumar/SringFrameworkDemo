@@ -1,5 +1,5 @@
 package demo;
-// singleton scope
+// singleton scope demo
 public class Doctor implements Staff {
 
     @Override
