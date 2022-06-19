@@ -1,5 +1,11 @@
 package demo;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 // singleton scope demo
+@Component
+@Scope(scopeName = "prototype")
 public class Doctor implements Staff {
 
     @Override

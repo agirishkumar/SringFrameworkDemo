@@ -15,6 +15,7 @@ public class Main {
         System.out.println(doctor);
 
         Doctor doctor1 = context.getBean(Doctor.class);
+        doctor1.setQualification("FRCS");
         System.out.println(doctor1);
 
         Doctor doctor2 = context.getBean(Doctor.class);
